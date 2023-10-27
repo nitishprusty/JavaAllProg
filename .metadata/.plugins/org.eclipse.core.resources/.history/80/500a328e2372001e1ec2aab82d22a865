@@ -1,0 +1,10 @@
+import java.io.*;
+public class demofilewriter {
+
+	public static void main(String[] args) throws IOException{
+		
+		File f = new File("c:\\programdeo/myfile.txt");
+        String s = "This is demo text";
+	}
+
+}

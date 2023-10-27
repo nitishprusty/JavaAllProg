@@ -1,0 +1,11 @@
+package abstarctiondemo;
+
+public class genAi extends Technology{
+
+	@Override
+	void techcode(int code) {
+		System.out.println(code);
+		
+	}
+
+}

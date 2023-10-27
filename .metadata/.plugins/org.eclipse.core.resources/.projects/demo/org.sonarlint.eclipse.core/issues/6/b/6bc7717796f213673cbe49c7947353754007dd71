@@ -1,0 +1,6 @@
+
+d
+squid:S106"9Replace this use of System.out or System.err by a logger.(ü„ê!H¥RMAJORZ
+CODE_SMELL
+squid:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "sq".(‚”°8ª×Åê³1H¾RMINORZ
+CODE_SMELL

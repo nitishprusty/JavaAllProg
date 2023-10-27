@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ParameterizationTestDemo" project="Junitdemo" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="ParameterizationTestDemo" time="0.049" uniqueid="[engine:junit-jupiter]/[class:ParameterizationTestDemo]">
+    <testsuite name="valuesourceTest(ParameterizationTestDemo)" time="0.049" displayname="valuesourceTest(int)" parameters="int" uniqueid="[engine:junit-jupiter]/[class:ParameterizationTestDemo]/[test-template:valuesourceTest(int)]">
+      <testcase name="valuesourceTest" classname="ParameterizationTestDemo" time="0.049" dynamicTest="true" displayname="[1] 1" parameters="int" uniqueid="[engine:junit-jupiter]/[class:ParameterizationTestDemo]/[test-template:valuesourceTest(int)]/[test-template-invocation:#1]"/>
+      <testcase name="valuesourceTest" classname="ParameterizationTestDemo" time="0.008" dynamicTest="true" displayname="[2] 2" parameters="int" uniqueid="[engine:junit-jupiter]/[class:ParameterizationTestDemo]/[test-template:valuesourceTest(int)]/[test-template-invocation:#2]"/>
+      <testcase name="valuesourceTest" classname="ParameterizationTestDemo" time="0.006" dynamicTest="true" displayname="[3] 3" parameters="int" uniqueid="[engine:junit-jupiter]/[class:ParameterizationTestDemo]/[test-template:valuesourceTest(int)]/[test-template-invocation:#3]"/>
+      <testcase name="valuesourceTest" classname="ParameterizationTestDemo" time="0.008" dynamicTest="true" displayname="[4] 4" parameters="int" uniqueid="[engine:junit-jupiter]/[class:ParameterizationTestDemo]/[test-template:valuesourceTest(int)]/[test-template-invocation:#4]"/>
+      <testcase name="valuesourceTest" classname="ParameterizationTestDemo" time="0.011" dynamicTest="true" displayname="[5] 5" parameters="int" uniqueid="[engine:junit-jupiter]/[class:ParameterizationTestDemo]/[test-template:valuesourceTest(int)]/[test-template-invocation:#5]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,14 @@
+import java.io.*;
+public class makeDirectory {
+
+	public static void main(String[] args) {
+	   
+		File f = new File("c://programdemo");
+		
+		boolean b = f.mkdir();
+		System.out.println(b);
+		System.out.println(f.isDirectory());
+      
+	}
+
+}

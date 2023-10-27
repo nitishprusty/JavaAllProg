@@ -1,0 +1,23 @@
+package TreeMapDemo;
+
+import java.util.*;
+
+public class demo {
+
+	public static void main(String[] args) {
+		
+		NavigableMap<Integer,String> nm = new TreeMap<Integer,String>();
+		
+		nm.put(2, "aa");
+		nm.put(4, "bb");
+		nm.put(1, "cc");
+		
+		nm.put(3, "dd");
+		nm.put(5, "ee");
+		
+		System.out.println(nm.descendingKeySet());
+		
+
+	}
+
+}

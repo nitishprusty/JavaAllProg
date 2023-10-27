@@ -1,0 +1,32 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.EnumSource;
+import org.junit.jupiter.params.provider.ValueSource;
+
+class ParameterizationTestDemo {
+
+	@ParameterizedTest//(name = "{index} - Run test with args{0}")
+	@ValueSource(ints = {1,2,3,4,5})
+	public void valuesourceTest(int args) {
+		System.out.println(args);
+	}
+	
+	@ParameterizedTest
+	@ValueSource(strings = {"apple","banana","pineapple","orange"})
+	public void valuesourceTest1(String fru) {
+		System.out.println(fru);
+	}
+	
+	enum Fruits {
+		apple,banana,orange,grapes,pineapple
+	}
+	
+	@ParameterizedTest
+	@EnumSource(Fruits.class)
+    public void EnumSourceTest(Fruits fruit) {
+		System.out.println(fruit);
+	}
+
+}

@@ -1,0 +1,25 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+class Testdemo {
+	
+	@BeforeAll
+	public static void beforeclass() {
+		System.out.println("Before runnning all test cases...");
+	}
+
+	@Test
+	void test() {
+		assertEquals(3,3);
+	}
+	
+	@Test
+	public void test1() {
+		String actualValue = "Helloworld";
+		assertNotEquals("HelloWorld",actualValue);
+	}
+	
+
+}

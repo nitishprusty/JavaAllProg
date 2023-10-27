@@ -1,0 +1,41 @@
+package Task3;
+
+import java.util.*;
+
+public class Bank {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	private ArrayList<Account> accountlist = new ArrayList<>();
+	
+	public void createAccount(long AccountNumber,String name,double balance,String Branch) {
+		if(Branch.equals("Saving") && balance < 5000) {
+			System.out.println("Minimum Balance for Saving Account is 5000");
+		}else if(Branch.equals("Current") && balance < 1000) {
+			System.out.println("Minimum Balace for Current Account is 1000");
+		}else {
+			accountlist.add(new Account(AccountNumber,name,balance,Branch));
+		}
+	}
+	
+	public void displayTotalMoneyDeposited() {
+		double totalBalance = 0.0;
+		for(Account acc : accountlist) {
+			totalBalance += acc.getMinimumBalance();
+		}
+		System.out.println("Total Money Deposited in Bank is " + totalBalance);
+	}
+	
+	public Account findAccount(long AccountNumber) {
+		for(Account acc : accountlist) {
+			if(acc.getAccNumber() == AccountNumber) {
+				return acc;
+			}
+		}
+		return null;
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class stringobj {
+
+	public static void main(String[] args) {
+		//String are the combination of array of characters
+		
+		String str = "Accenture";
+		System.out.println(str.length());
+		System.out.println(str.charAt(5));
+
+	}
+
+}

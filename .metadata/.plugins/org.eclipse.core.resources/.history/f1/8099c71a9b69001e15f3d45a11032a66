@@ -1,0 +1,17 @@
+package Task;
+
+public class Employee {
+	
+	String empid;
+	String empname;
+	String Companyname;
+	String Company;
+	
+	public Employee(String empid,String empname,String Companyname,String Company) {
+		this.empid = empid;
+		this.empname = empname;
+		this.Companyname = Companyname;
+		this.Company = Company;
+	}
+
+}

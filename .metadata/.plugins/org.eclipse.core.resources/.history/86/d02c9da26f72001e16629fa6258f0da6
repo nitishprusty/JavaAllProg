@@ -1,0 +1,11 @@
+package RunnableDemo;
+
+public class RunnableTest {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Runnable Thread Name:- " + Thread.currentThread().getName());
+
+	}
+
+}

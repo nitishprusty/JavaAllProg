@@ -1,0 +1,31 @@
+package InterfaceDemo;
+
+public class TestInterface implements Trainer2,Ops{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void project(String project) {
+		// TODO Auto-generated method stub
+		System.out.println(project);
+		
+	}
+
+	@Override
+	public void Operations(int oid) {
+		// TODO Auto-generated method stub
+		System.out.println(oid);
+		
+	}
+
+	@Override
+	public void TrainerDetails(int trainerid) {
+		// TODO Auto-generated method stub
+		System.out.println(trainerid);
+		
+	}
+
+}

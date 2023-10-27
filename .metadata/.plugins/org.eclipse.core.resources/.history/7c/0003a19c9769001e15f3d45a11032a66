@@ -1,0 +1,9 @@
+package package1;
+
+public class Employee extends Accenture{
+	
+	protected Employee() {
+		super("Accenture",101);
+	}
+
+}

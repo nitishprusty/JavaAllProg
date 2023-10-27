@@ -1,0 +1,29 @@
+package Task;
+
+public class Details {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee emp1 = new Employee("1001","Raj","Accenture","Java");
+		Employee emp2 = new Employee("1002","Kamal","Accenture","Java");
+		Employee emp3 = new Employee("1003","Shyam","Accenture","Java");
+		
+		Employee [] emp = new Employee[3];
+		
+		emp[0] = emp1;
+		emp[1] = emp2;
+		emp[2] = emp3;
+		
+		System.out.println("Before Modification");
+		
+		for(Employee e : emp) {
+			System.out.println("Employee Id - " + e.getEmpid());
+			System.out.println("Employee Name - " + e.getEmpname());
+			System.out.println("Employee Company - " + e.getCompanyname());
+			System.out.println("Employee Stream - " + e.getCompany());
+		}
+
+	}
+
+}

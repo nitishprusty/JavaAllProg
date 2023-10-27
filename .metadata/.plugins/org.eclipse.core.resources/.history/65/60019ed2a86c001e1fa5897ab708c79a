@@ -1,0 +1,26 @@
+package TreeMapDemo;
+
+import java.util.Comparator;
+
+public class EmployeeSalary implements Comparator<EmployeeSalary>{
+	
+	int Eid;
+	String name;
+	double salary;
+	
+	public EmployeeSalary(int Eid,String name,double salary) {
+		super();
+		this.Eid = Eid;
+		this.name = name;
+		this.salary = salary;
+	}
+
+	@Override
+	public int compare(EmployeeSalary o1, EmployeeSalary o2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
+}

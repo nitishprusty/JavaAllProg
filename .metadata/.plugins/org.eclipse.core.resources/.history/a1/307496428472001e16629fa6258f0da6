@@ -1,0 +1,23 @@
+package Synchronization;
+
+public class MainFile extends Thread{
+	
+	double amount;
+	Account acc;
+	
+	public MainFile(double amount,Account acc) {
+		this.amount = amount;
+		this.acc = acc;
+	}
+	
+	public void run() {
+		acc.withdraw(amount);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

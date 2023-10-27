@@ -1,0 +1,25 @@
+package Task3;
+
+public class Account {
+	
+    private long accNumber;
+    private String name;
+    private double balance;
+    private String Branch;
+    
+	public Account(long accNumber, String name, double balance, String branch) {
+		super();
+		this.accNumber = accNumber;
+		this.name = name;
+		this.balance = balance;
+		Branch = branch;
+	}
+    
+    public void displayAccountDetails() {
+    	System.out.println("Account Number: " + accNumber);
+    	System.out.println("Name: " + name);
+    	System.out.println("Balance : " + balance);
+    	System.out.println("Branch: " + Branch);
+    }
+    
+}

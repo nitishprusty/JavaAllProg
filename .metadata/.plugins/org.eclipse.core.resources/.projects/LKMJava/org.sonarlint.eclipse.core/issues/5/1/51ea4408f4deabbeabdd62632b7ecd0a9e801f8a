@@ -1,0 +1,28 @@
+
+gsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿH§RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(—Úµ±ûÿÿÿÿH¯RMAJORZ
+CODE_SMELL
+j
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿH¬RMAJORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á¿ÝžHªRMINORZ
+CODE_SMELL
+gsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿH¨RMAJORZ
+CODE_SMELL
+€squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ã«¦¡ùÿÿÿÿH©RMINORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÜŠ½ŸùÿÿÿÿH®RMAJORZ
+CODE_SMELL
+ksquid:S3518"CMake sure this expression can't be zero before doing this division.(ûºúH¦RCRITICALZBUG
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿH­RMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH«RINFOZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(—Úµ±ûÿÿÿÿH°RMAJORZ
+CODE_SMELL

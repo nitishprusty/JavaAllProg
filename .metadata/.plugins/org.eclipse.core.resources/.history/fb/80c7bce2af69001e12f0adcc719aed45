@@ -1,0 +1,15 @@
+package abstarctiondemo;
+
+public class genAi extends Technology{
+
+	@Override
+	void techcode(int code) {
+		// TODO Auto-generated method stub
+		System.out.println(code);
+		
+	}
+ 
+	
+	
+
+}

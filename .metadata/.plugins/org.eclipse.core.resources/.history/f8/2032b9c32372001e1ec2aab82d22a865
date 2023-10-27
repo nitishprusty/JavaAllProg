@@ -1,0 +1,11 @@
+import java.io.*;
+public class demofilewriter {
+
+	public static void main(String[] args) throws IOException{
+		
+		try(FileWriter f = new FileWriter("c:\\programdemo/myfile.txt");){
+			String s = "A quick brown fox jumps over the lazy dog";
+		}
+	}
+
+}

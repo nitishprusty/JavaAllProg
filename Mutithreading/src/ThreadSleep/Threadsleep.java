@@ -1,0 +1,25 @@
+package ThreadSleep;
+
+public class Threadsleep implements Runnable{
+
+	public static void main(String[] args) {
+		
+		Thread t = new Thread(new Threadsleep());
+		t.start();
+
+	}
+
+	@Override
+	public void run() {
+		
+		System.out.println("Thread starts at " + Thread.currentThread().getName());
+		try {
+			Thread.sleep(4000);
+		}catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Thread Ends at " + Thread.currentThread().getName());
+		
+	}
+
+}

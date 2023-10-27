@@ -1,0 +1,11 @@
+
+public class StringBuilder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        /*StringBuilder is a class which is used to create mutable string 
+         * which is not synchronized and it is more efficient than StringBuffer
+         */
+	}
+
+}

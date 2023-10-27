@@ -1,0 +1,36 @@
+
+isquid:S1854*"7Remove this useless assignment to local variable "sum".(ŸÉ•ÖÿÿÿÿÿHØRMAJORZ
+CODE_SMELL
+e
+squid:S106&"9Replace this use of System.out or System.err by a logger.(˜½ÅHİRMAJORZ
+CODE_SMELL
+csquid:S5261C"1Add explicit curly braces to avoid dangling else.(„¶áìøÿÿÿÿHßRMAJORZ
+CODE_SMELL
+csquid:S1135c"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHáRINFOZ
+CODE_SMELL
+esquid:S1197"8Move the array designator from the variable to the type.(æŒÚ¼HÚRMINORZ
+CODE_SMELL
+Xsquid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÓRMINORZVULNERABILITY
+isquid:S1854Z"7Remove this useless assignment to local variable "obj".(ĞÙÖÌûÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+csquid:S1135_"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHàRINFOZ
+CODE_SMELL
+ysquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(½ÑÍûùÿÿÿÿHÑRMAJORZ
+CODE_SMELL
+lsquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜ÉüÿÿÿÿHÒRMINORZ
+CODE_SMELL
+Xsquid:S1148V"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÔRMINORZVULNERABILITY
+‡squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(½ÑÍûùÿÿÿÿHÖRCRITICALZ
+CODE_SMELL
+“squid:S4165%"aRemove this useless assignment; "sum" already holds the assigned value along all execution paths.(Õò‰†øÿÿÿÿHĞRMAJORZ
+CODE_SMELL
+isquid:S1854%"7Remove this useless assignment to local variable "sum".(Õò‰†øÿÿÿÿH×RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÊÎÃÉHÜRMAJORZ
+CODE_SMELL
+Ksquid:S2116"%Use "Arrays.toString(array)" instead.(¸¶âÿHÛRMAJORZBUG
+~squid:S1192"IDefine a constant instead of duplicating this literal "You are " 3 times.(¼Á­ÿÿÿÿÿHÏRCRITICALZ
+CODE_SMELL
+csquid:S52617"1Add explicit curly braces to avoid dangling else.(„¶áìøÿÿÿÿHŞRMAJORZ
+CODE_SMELL

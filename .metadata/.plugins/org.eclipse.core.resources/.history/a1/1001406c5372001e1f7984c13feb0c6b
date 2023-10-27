@@ -1,0 +1,14 @@
+public class Employee {
+	
+    int empid;
+    String empName;
+    
+	public Employee(int empid, String empName) {
+		super();
+		this.empid = empid;
+		this.empName = empName;
+	}
+    
+    
+    
+}

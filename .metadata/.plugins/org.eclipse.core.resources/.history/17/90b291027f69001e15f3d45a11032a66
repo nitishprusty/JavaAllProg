@@ -1,0 +1,19 @@
+
+public class stringbuilderdemo {
+
+	public static void main(String[] args) {
+		
+		/*StringBuilder is a class which is used to create mutable string 
+         * which is not synchronized and it is more efficient than StringBuffer
+         */
+		
+		StringBuilder sb = new StringBuilder("Learning Java");
+		sb.append("At LKM Accenture");
+		
+		sb.insert(12, "Happily");
+		System.out.println(sb);
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.acc.lkm.jdbcdemo;
+import java.sql.*;
+public class JDBCDemo1 {
+	
+	public static void main(String [] args) {
+		 try {
+			 Class.forName("com.mysql.jdbc.Driver");
+			 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/AccTraining");
+			 Statement statement = connection.createStatement();
+			 
+			 String sql = "SELECT * FROM TRAINING";
+			 ResultSet resultset = statement.executeQuery(sql);
+			 
+			 while(resultset.next()) {
+				 System.out.println(resultset.getInt(1) + " " + resultset.getString(2) + " " + resultset.getString(3) + " " + resultset.getInt(4) + " " + resultset.getDate(5));
+			 }
+			 connection.close();
+			 statement.close();
+		 }catch(Exception e) {
+			 e.printStackTrace();
+		 }
+	}
+
+}

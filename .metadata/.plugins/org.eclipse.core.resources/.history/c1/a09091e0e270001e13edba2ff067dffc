@@ -1,0 +1,8 @@
+package Task1;
+
+public class Product {
+    
+	private int pid;
+	private double price;
+	private int quantity;
+}

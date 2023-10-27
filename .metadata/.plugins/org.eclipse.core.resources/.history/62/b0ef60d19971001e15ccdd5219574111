@@ -1,0 +1,13 @@
+package Question4;
+
+abstract class Processor {
+	
+	private int data;
+	
+	abstract void process();
+	
+	void showdata() {
+		System.out.println("Data : " + data);
+	}
+
+}

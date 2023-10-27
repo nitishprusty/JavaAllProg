@@ -1,0 +1,10 @@
+package CollectionGenerics;
+
+public class Hashsetdemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

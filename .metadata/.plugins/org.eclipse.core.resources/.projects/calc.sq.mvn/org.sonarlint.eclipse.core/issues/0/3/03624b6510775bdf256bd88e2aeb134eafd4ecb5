@@ -1,0 +1,18 @@
+
+ssquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(‰ÆáeHãRMAJORZ
+CODE_SMELL
+ysquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ŠÐäçüÿÿÿÿHäRMAJORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š­ˆšýÿÿÿÿHåRMINORZ
+CODE_SMELL
+fsquid:S2134"@Don't extend "Thread", since the "run" method is not overridden.(ËÆµÕHæRMAJORZBUG
+dsquid:S1854"7Remove this useless assignment to local variable "sum".(í¹ÉèHçRMAJORZ
+CODE_SMELL
+Qsquid:S2127"+Remove this "Double.longBitsToDouble" call.(í¹ÉèHèRMAJORZBUG
+fsquid:S1854"9Remove this useless assignment to local variable "value".(è÷¨ÇHéRMAJORZ
+CODE_SMELL
+Esquid:S2153"Remove the boxing to "Integer".(è÷¨ÇHêRMINORZBUG
+Nsquid:S2129"!Remove this "Integer" constructor(è÷¨ÇHëRMAJORZ
+CODE_SMELL
+Wsquid:S1481"*Remove this unused "value" local variable.(è÷¨ÇHìRMINORZ
+CODE_SMELL

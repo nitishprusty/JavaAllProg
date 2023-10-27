@@ -1,0 +1,13 @@
+import java.io.*;
+public class DemoDataInputStream {
+
+	public static void main(String[] args) {
+		
+		try(FileInputStream f = new FileInputStream("c:\\programdemo/myfile.txt");
+				DataInputStream d = new DataInputStream(f);) {
+			
+		}
+
+	}
+
+}

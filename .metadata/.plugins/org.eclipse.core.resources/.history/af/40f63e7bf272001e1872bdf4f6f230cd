@@ -1,0 +1,19 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Testdemo {
+
+	@Test
+	void test() {
+		assertEquals(3,3);
+	}
+	
+	@Test
+	public void test1() {
+		String actualValue = "Helloworld";
+		assertEquals("HelloWorld",actualValue);
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+
+public class demo {
+
+	{
+		System.out.println("Hello");
+	}
+	static {
+		System.out.println("Good morning Accenture");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        System.out.println("Hey");
+	}
+
+}

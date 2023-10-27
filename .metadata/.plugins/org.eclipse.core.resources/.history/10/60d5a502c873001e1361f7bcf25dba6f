@@ -1,0 +1,26 @@
+package com.acc.lkm.jdbcdemo;
+import java.sql.*;
+public class JDBCDemo2 {
+
+	public static void main(String[] args) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String username = "root";
+			 String password = "root";
+			 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/AccTraining",username,password);
+			 PreparedStatement preparedstatement = connection.prepareStatement("SELECT * FROM Training");
+			 ResultSet resultset = preparedstatement.executeQuery();
+			 while(resultset.next()) {
+				 System.out.println(resultset.getInt(1) + " " + resultset.getString(2) + " " + resultset.getString(3) + " " + resultset.getInt(4) + " " + resultset.getDate(5));
+			 }
+			 
+			 connection.close();
+			 preparedstatement.close();
+			 
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

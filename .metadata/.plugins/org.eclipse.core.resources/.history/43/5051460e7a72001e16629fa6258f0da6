@@ -1,0 +1,20 @@
+package ThreadSleep;
+
+public class Threadsleep implements Runnable{
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		try {
+			Thread.sleep(4000);
+		}
+
+	}
+
+	@Override
+	public void run() {
+		
+		System.out.println("Thread Started Running");
+		
+	}
+
+}

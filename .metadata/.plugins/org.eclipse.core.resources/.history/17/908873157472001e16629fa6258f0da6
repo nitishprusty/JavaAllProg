@@ -1,0 +1,15 @@
+package ThreadPriority;
+
+public class ThreadPriority extends Thread{
+	
+	public void run() {
+		System.out.println("Entering methods: " + Thread.currentThread().getName());
+	}
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

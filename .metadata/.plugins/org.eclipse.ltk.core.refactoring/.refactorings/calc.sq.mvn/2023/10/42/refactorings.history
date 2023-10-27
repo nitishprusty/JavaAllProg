@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;calc.calc.sq.mvn.AgeCalc.inputDate&apos; in &apos;calc.calc.sq.mvn.AgeCalc&apos;&#x0D;&#x0A;- Original project: &apos;calc.sq.mvn&apos;&#x0D;&#x0A;- Original element: &apos;calc.calc.sq.mvn.AgeCalc.inputDate&apos;&#x0D;&#x0A;- Getter method name: &apos;getInputDate&apos;&#x0D;&#x0A;- Setter method name: &apos;setInputDate&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;inputDate&apos;" flags="589830" getter="getInputDate" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java&lt;calc.calc.sq.mvn{AgeCalc.java[AgeCalc^inputDate" insertion="4" setter="setInputDate" stamp="1697542642595" version="1.0" visibility="1"/>
+</session>

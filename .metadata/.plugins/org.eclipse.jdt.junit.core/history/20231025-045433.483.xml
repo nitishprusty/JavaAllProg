@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Testdemo" project="Junitdemo" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="Testdemo" time="0.037" uniqueid="[engine:junit-jupiter]/[class:Testdemo]">
+    <testcase name="test" classname="Testdemo" time="0.024" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:Testdemo]/[method:test()]"/>
+    <testcase name="test1" classname="Testdemo" time="0.013" displayname="test1()" uniqueid="[engine:junit-jupiter]/[class:Testdemo]/[method:test1()]"/>
+  </testsuite>
+</testrun>

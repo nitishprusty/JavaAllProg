@@ -1,0 +1,24 @@
+package TreeMapDemo;
+
+import java.util.*;
+
+public class EmployeeUi {
+	
+	public static void main(String [] args) {
+		EmployeeSalary emp1 = new EmployeeSalary(1,"Nitish",56987.90);
+		EmployeeSalary emp2 = new EmployeeSalary(1,"Alex",46987.90);
+		EmployeeSalary emp3 = new EmployeeSalary(1,"Tom",36987.90);
+		
+		List<EmployeeSalary> emplist = new ArrayList<>();
+		emplist.add(emp1);
+		emplist.add(emp2);
+		emplist.add(emp3);
+		
+		System.out.println("Sorted salary list - ");
+		
+		for(EmployeeSalary es : emplist) {
+			
+		}
+	}
+
+}

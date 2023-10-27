@@ -1,0 +1,20 @@
+package Exceptiondemo;
+
+public class exceptiondemo {
+
+	public static void main(String[] args) {
+		//NumberFormat 
+		int a = Integer.parseInt(null);
+		System.out.println(a);
+		
+		//ArrayIndexOutofBound
+		
+		int [] arr = new int[2];
+		System.out.println(arr[4]);
+		
+		//Arithmetic Exception
+		System.out.println(10/0);
+
+	}
+
+}

@@ -1,0 +1,69 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.EnumSource;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.ValueSource;
+
+class ParameterizationTestDemo {
+
+	@ParameterizedTest//(name = "{index} - Run test with args{0}")
+	@ValueSource(ints = {1,2,3,4,5})
+	public void valuesourceTest(int args) {
+		System.out.println(args);
+	}
+	
+	@ParameterizedTest
+	@ValueSource(strings = {"apple","banana","pineapple","orange"})
+	public void valuesourceTest1(String fru) {
+		System.out.println(fru);
+	}
+	
+	enum Fruits {
+		apple,banana,orange,grapes,pineapple
+	}
+	
+	@ParameterizedTest
+	@EnumSource(Fruits.class)
+    public void EnumSourceTest(Fruits fruit) {
+		System.out.println(fruit);
+	}
+	
+	private static String[] Fruits(){
+		return new String[] {"apple","banana","orange"};
+	}
+	
+	@ParameterizedTest
+	@MethodSource("Fruits")
+	public void MethodSourceTest(String Fruits) {
+		System.out.println(Fruits);
+	}
+	
+	private static Object[] values() {
+		return new Object[][] {
+				{"java","Programming","Language"},
+				{"junit","Testing","framework"},
+				{"Github","api"}
+		};
+	}
+	
+	@ParameterizedTest
+	@MethodSource("values")
+	public void MethodSourceTest1(String para1,String para2) {
+		System.out.println(para1 + "_" + para2);
+	}
+	
+	@ParameterizedTest
+	@CsvSource({"java, Programming Lanaguage",
+		        "junit,Testing Framework",
+		        "Github,api"})
+	public void csvSourceTest(String para1,String para2) {
+		System.out.println(para1 + "_" + para2);
+	}
+	
+	
+	
+
+}

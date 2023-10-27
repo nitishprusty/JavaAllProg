@@ -1,0 +1,11 @@
+
+
+public class demoObjectOutputStream {
+
+	public static void main(String[] args) throws FileNotFoundException, IOException{
+		
+		FileOutputStream f = new FileOutputStream()
+
+	}
+
+}

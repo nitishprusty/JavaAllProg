@@ -1,0 +1,49 @@
+package Task;
+
+public class Details {
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee emp1 = new Employee("1001","Raj","Accenture","Java");
+		Employee emp2 = new Employee("1002","Kamal","Accenture","Java");
+		Employee emp3 = new Employee("1003","Shyam","Accenture","Java");
+		
+		Employee [] emp = new Employee[3];
+		
+		emp[0] = emp1;
+		emp[1] = emp2;
+		emp[2] = emp3;
+		
+		System.out.println("Before Modification");
+		
+		for(int i = 0;i<emp.length;i++) {
+			System.out.println("Employee Name - " + emp[i].getEmpname());
+			System.out.println("Employee Id - " + emp[i].getEmpid());
+			System.out.println("Employee Company - " + emp[i].getCompanyname());
+			System.out.println("Employee Stream - " + emp[i].getCompany());
+		}
+		
+		System.out.println("\n");
+		
+		System.out.println("After Modification");
+		
+		for(int i = 0;i<emp.length;i++) {
+			if(emp[i].getEmpid().equalsIgnoreCase("1003")) {
+				emp[i].setCompany("Hybris");
+			}
+		}
+		
+		for(int i = 0;i<emp.length;i++) {
+			System.out.println("Employee Name - " + emp[i].getEmpname());
+			System.out.println("Employee Id - " + emp[i].getEmpid());
+			System.out.println("Employee Company - " + emp[i].getCompanyname());
+			System.out.println("Employee Stream - " + emp[i].getCompany());
+		}
+		
+		
+
+	}
+
+}

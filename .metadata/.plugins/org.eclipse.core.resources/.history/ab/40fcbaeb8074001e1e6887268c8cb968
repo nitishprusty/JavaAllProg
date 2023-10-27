@@ -1,0 +1,26 @@
+package com.acc.lkm.UIcontroller;
+
+import javax.persistence.EntityManagerFactory;
+
+public class UiPersist {
+
+	public static void main(String[] args) {
+		
+		EntityManagerFactory entitymanagerfactory=Persistence.createEntityManagerFactory("JPADemo");	
+	    EntityManager entityManager=entitymanagerfactory.createEntityManager();
+	    EmpEntity empEntity=new EmpEntity();
+	    empEntity.setEmpId(3);
+	    empEntity.setEmpName("Rashi ");
+	    empEntity.setRole("SM");
+	    empEntity.setSalary(165000.00);
+	    entityManager.getTransaction().begin();
+	    entityManager.merge(empEntity);
+	   // entityManager.persist(empEntity);
+	    entityManager.getTransaction().commit();
+	    System.out.println("Employee registered successfully");
+	    entityManager.close();
+	    entitymanagerfactory.close();
+
+	}
+
+}
